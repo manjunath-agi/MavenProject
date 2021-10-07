@@ -12,7 +12,7 @@ public class MVNTest6 {
 
 	public WebDriver driver;
 	
-	@Test(groups = "{R1}")
+	@Test(groups = {"R1"})
  	@Parameters({"fbURL"})
 	public void OpenFB(String fbURL)
 	{

@@ -12,7 +12,7 @@ public class MVNTest7 {
 
 	public WebDriver driver;
 	
-	@Test(groups = "{R1}")
+	@Test(groups = {"R1"})
  		public void OpenAmazon()
 	{
 	System.setProperty("webdriver.chrome.driver","C:\\Users\\00005232\\OneDrive - Arisglobal software pvt Ltd\\Softwares for installation\\chromedriver.exe");
