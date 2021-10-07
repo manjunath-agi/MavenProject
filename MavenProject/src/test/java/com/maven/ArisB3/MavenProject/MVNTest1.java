@@ -2,6 +2,7 @@ package com.maven.ArisB3.MavenProject;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import java.lang.*;
 
 public class MVNTest1 {
 
