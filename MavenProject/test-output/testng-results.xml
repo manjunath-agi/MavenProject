@@ -2,24 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-07T11:41:49 IST" name="Default suite" finished-at="2021-10-07T11:41:57 IST" duration-ms="8122">
+  <suite started-at="2021-10-07T12:32:03 IST" name="Suite" finished-at="2021-10-07T12:32:10 IST" duration-ms="6798">
     <groups>
     </groups>
-    <test started-at="2021-10-07T11:41:49 IST" name="Default test" finished-at="2021-10-07T11:41:57 IST" duration-ms="8122">
-      <class name="com.maven.ArisB3.MavenProject.MVNTest2">
-        <test-method is-config="true" signature="BTest()[pri:0, instance:com.maven.ArisB3.MavenProject.MVNTest2@50ad3bc1]" started-at="2021-10-07T11:41:49 IST" name="BTest" finished-at="2021-10-07T11:41:56 IST" duration-ms="7366" status="PASS">
+    <test started-at="2021-10-07T12:32:03 IST" name="Test" finished-at="2021-10-07T12:32:10 IST" duration-ms="6798">
+      <class name="com.maven.ArisB3.MavenProject.MVNTest6">
+        <test-method signature="OpenFB(java.lang.String)[pri:0, instance:com.maven.ArisB3.MavenProject.MVNTest6@49dc7102]" started-at="2021-10-07T12:32:03 IST" name="OpenFB" finished-at="2021-10-07T12:32:10 IST" duration-ms="6705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BTest -->
-        <test-method signature="ATTest()[pri:0, instance:com.maven.ArisB3.MavenProject.MVNTest2@50ad3bc1]" started-at="2021-10-07T11:41:56 IST" name="ATTest" finished-at="2021-10-07T11:41:56 IST" duration-ms="31" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ATTest -->
-        <test-method is-config="true" signature="ATest()[pri:0, instance:com.maven.ArisB3.MavenProject.MVNTest2@50ad3bc1]" started-at="2021-10-07T11:41:56 IST" name="ATest" finished-at="2021-10-07T11:41:57 IST" duration-ms="635" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ATest -->
-      </class> <!-- com.maven.ArisB3.MavenProject.MVNTest2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- OpenFB -->
+      </class> <!-- com.maven.ArisB3.MavenProject.MVNTest6 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

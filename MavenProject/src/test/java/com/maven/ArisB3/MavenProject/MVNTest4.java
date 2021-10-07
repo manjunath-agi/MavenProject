@@ -19,7 +19,9 @@ public class MVNTest4 {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\00005232\\OneDrive - Arisglobal software pvt Ltd\\Softwares for installation\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://www.flipkart.com");
-  }
+		System.out.println(driver.getTitle());
+		driver.close();
+  }	
   
  
 }

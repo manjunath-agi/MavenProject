@@ -10,19 +10,19 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class MVNTest5 {
  
-  //public WebDriver driver;	
+  
 	
   @BeforeTest
-  public void BTest()
+  public void Launchcomment()
   {
 		System.out.println("Launching the Browser");
   }
   
   @AfterTest
-  public void ATest() throws InterruptedException
+  public void Closecomment() throws InterruptedException
   {
-		System.out.println("Closing the Browser");
+		System.out.println("Closed the Browser");
 		Thread.sleep(10000);
-		//driver.close();
+		
   }
 }
