@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.maven.ArisB3.MavenProject.MVNTest7">
+      <class name="AmazonTest.AmazonLaunchTest">
         <methods>
-          <include name="OpenFB"/>
+          <include name="BrowserCall"/>
         </methods>
-      </class> <!-- com.maven.ArisB3.MavenProject.MVNTest7 -->
+      </class> <!-- AmazonTest.AmazonLaunchTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
