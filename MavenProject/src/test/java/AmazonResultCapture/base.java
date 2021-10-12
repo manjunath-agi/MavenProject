@@ -15,7 +15,7 @@ public class base {
 	public Properties prop;
 	public FileInputStream fis;
 	public String vBrowser; 
-		
+	
 	public void BrowserCall() throws IOException
 	{
 		prop = new Properties();
@@ -26,12 +26,12 @@ public class base {
 		if(vBrowser.equalsIgnoreCase("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\00005232\\OneDrive - Arisglobal software pvt Ltd\\Softwares for installation\\chromedriver.exe");
-			
+			driver = new ChromeDriver();	
 		}	
 		else if(vBrowser.equalsIgnoreCase("edge"))
 			{
 				System.setProperty("webdriver.edge.driver", "C:\\Users\\00005232\\OneDrive - Arisglobal software pvt Ltd\\Softwares for installation\\msedgedriver.exe");
-			
+				driver = new EdgeDriver();
 			}
 		else
 			System.out.println("INVALID BROWSER");

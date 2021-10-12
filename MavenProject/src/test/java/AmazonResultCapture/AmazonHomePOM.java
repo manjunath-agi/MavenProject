@@ -4,12 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class AmazonHomePageObjectModelFile {
+public class AmazonHomePOM {
 	
 	private WebDriver driver;
 
 
-	public AmazonHomePageObjectModelFile(WebDriver driver) 
+	public AmazonHomePOM(WebDriver driver) 
 	{
 		super();
 		this.driver = driver;

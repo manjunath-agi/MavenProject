@@ -2,8 +2,11 @@ package AmazonResultCapture;
 
 import java.io.IOException;
 
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
 public class AmazonTestCase1  extends base 
@@ -15,20 +18,24 @@ public class AmazonTestCase1  extends base
 	{
 	
 	BrowserCall();
-	driver.get("https://www.amazon.in");
-	AmazonHomePageObjectModelFile AHP = new AmazonHomePageObjectModelFile(driver);
+	driver.get(prop.getProperty("URL"));
+	driver.manage().window().maximize();
+	AmazonHomePOM AHP = new AmazonHomePOM(driver);
 	AHP.SearchFieldbox().sendKeys("iphone 13");
 	AHP.SearchButton().click();
 	
-	AmazonSearchPageObjectModelFile ASP = new AmazonSearchPageObjectModelFile(driver);
+	AmazonSearchPOM ASP = new AmazonSearchPOM(driver);
 	ASP.GetIttodayCheckbox().click();
 	String displayText = ASP.DisplayText().getText();
 	//String displayText = driver.findElement(By.xpath("//*[@id=\"search\"]/span/div/span/h1/div/div[1]/div/div/span[1]")).getText();
 	System.out.println(displayText);
 	
-	
-	
-	
 	}
-
+	
+	@AfterTest
+	public void CloseBrowser()
+	{
+		driver.close();
+	}
+	
 }

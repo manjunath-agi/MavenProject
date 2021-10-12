@@ -6,6 +6,7 @@
       <class name="AmazonResultCapture.AmazonTestCase1">
         <methods>
           <include name="TestCase001"/>
+          <include name="CloseBrowser"/>
         </methods>
       </class> <!-- AmazonResultCapture.AmazonTestCase1 -->
     </classes>
