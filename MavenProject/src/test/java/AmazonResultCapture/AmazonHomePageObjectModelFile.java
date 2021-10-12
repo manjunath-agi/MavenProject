@@ -4,11 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class AmazonPageObjectModelFile {
+public class AmazonHomePageObjectModelFile {
 	
-	public WebDriver driver;
+	private WebDriver driver;
 
-	public AmazonPageObjectModelFile(WebDriver driver) 
+
+	public AmazonHomePageObjectModelFile(WebDriver driver) 
 	{
 		super();
 		this.driver = driver;
@@ -16,6 +17,7 @@ public class AmazonPageObjectModelFile {
 	
 	By SearchFieldbox = By.id("twotabsearchtextbox");
 	By SearchButton = By.id("nav-search-submit-button");
+
 	
 	public WebElement SearchFieldbox()
 	{
@@ -26,4 +28,6 @@ public class AmazonPageObjectModelFile {
 	{
 		return driver.findElement(SearchButton);
 	}
+	
+	
 }

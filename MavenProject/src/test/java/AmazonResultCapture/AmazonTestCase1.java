@@ -2,28 +2,30 @@ package AmazonResultCapture;
 
 import java.io.IOException;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-public class AmazonTestCase1 {
-	
-	public WebDriver driver;
+public class AmazonTestCase1  extends base 
+
+	{
 	
 	@Test
-	public void TestCase001()
+	public void TestCase001() throws IOException
 	{
-	base baseclassobj = new base();
-	try {
-		baseclassobj.BrowserCall();
-	} catch (IOException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}
 	
-	driver.get("https://amazon.com");
-	AmazonPageObjectModelFile APOM = new AmazonPageObjectModelFile(driver);
-	APOM.SearchFieldbox().sendKeys("iphone 13 pro");
-	APOM.SearchButton().click();
+	BrowserCall();
+	driver.get("https://www.amazon.in");
+	AmazonHomePageObjectModelFile AHP = new AmazonHomePageObjectModelFile(driver);
+	AHP.SearchFieldbox().sendKeys("iphone 13");
+	AHP.SearchButton().click();
+	
+	AmazonSearchPageObjectModelFile ASP = new AmazonSearchPageObjectModelFile(driver);
+	ASP.GetIttodayCheckbox().click();
+	String displayText = ASP.DisplayText().getText();
+	//String displayText = driver.findElement(By.xpath("//*[@id=\"search\"]/span/div/span/h1/div/div[1]/div/div/span[1]")).getText();
+	System.out.println(displayText);
+	
 	
 	
 	
