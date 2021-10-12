@@ -17,6 +17,9 @@ public class AmazonTC001 extends base {
 		AmazonPOM APOM = new AmazonPOM(driver);
 		APOM.SearchFieldbox().sendKeys("iphone 13 pro");
 		APOM.SearchButton().click();
+		
+		Thread.sleep(1000);
+		driver.close();
 	
 	
 	
