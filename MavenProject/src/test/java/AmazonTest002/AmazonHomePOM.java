@@ -1,4 +1,4 @@
-package AmazonPageTest;
+package AmazonTest002;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

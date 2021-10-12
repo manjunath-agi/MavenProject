@@ -26,12 +26,12 @@ public class base {
 		if(vBrowser.equalsIgnoreCase("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\00005232\\OneDrive - Arisglobal software pvt Ltd\\Softwares for installation\\chromedriver.exe");
-			WebDriver driver = new ChromeDriver();
+			driver = new ChromeDriver();
 		}	
 		else if(vBrowser.equalsIgnoreCase("edge"))
 			{
 				System.setProperty("webdriver.edge.driver", "C:\\Users\\00005232\\OneDrive - Arisglobal software pvt Ltd\\Softwares for installation\\msedgedriver.exe");
-				WebDriver driver = new EdgeDriver();
+				driver = new EdgeDriver();
 			}
 		else
 			System.out.println("INVALID BROWSER");
