@@ -1,4 +1,4 @@
-package AmazonTest;
+package AmazonTest001;
 
 import java.io.IOException;
 
