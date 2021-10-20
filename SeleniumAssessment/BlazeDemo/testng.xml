@@ -3,9 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
   <classes>
-  <class name = "SeleniumAssessment.Assessment"></class>
-  </classes>
-  
-  	
+  <class name = "SeleniumAssessment.Assessment" />
+  </classes> 		
   </test> <!-- Test -->
 </suite> <!-- Suite -->

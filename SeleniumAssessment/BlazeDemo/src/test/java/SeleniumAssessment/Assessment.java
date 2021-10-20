@@ -23,7 +23,7 @@ public class Assessment {
 	public void Blaze() throws InterruptedException, IOException 
 	{
 	
-		iFile="C:\\Users\\00005232\\git\\repository\\MavenProject\\Assessmentdata.properties";
+		iFile="C:\\Users\\00005232\\git\\repository\\SeleniumAssessment\\BlazeDemo\\Assessmentdata.properties";
 		
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\00005232\\OneDrive - Arisglobal software pvt Ltd\\Softwares for installation\\chromedriver.exe");
