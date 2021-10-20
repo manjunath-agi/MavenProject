@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AmazonTest001.AmazonTC001">
+      <class name="AmazonTest003.JSONread">
         <methods>
-          <include name="TestCase001"/>
+          <include name="jSonRead"/>
         </methods>
-      </class> <!-- AmazonTest001.AmazonTC001 -->
+      </class> <!-- AmazonTest003.JSONread -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

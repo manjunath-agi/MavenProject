@@ -19,16 +19,14 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
- 
-
- 
+  
 public class ExtentReporterNG implements IReporter {
     private ExtentReports extent;
     ExtentHtmlReporter htmlReporter;
  
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
     	
-    	htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"\\Reports\\htmlreport.html");
+    	   htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"\\Reports\\htmlreport.html");
        extent = new ExtentReports();
         
         extent.attachReporter(htmlReporter);

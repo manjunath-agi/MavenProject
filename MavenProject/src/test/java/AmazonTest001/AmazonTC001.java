@@ -18,11 +18,8 @@ public class AmazonTC001 extends base {
 		APOM.SearchFieldbox().sendKeys("iphone 13 pro");
 		APOM.SearchButton().click();
 		
-		Thread.sleep(1000);
+		//Thread.sleep(1000);
 		driver.close();
-	
-	
-	
 	}
 
 }

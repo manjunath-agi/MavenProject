@@ -3,13 +3,20 @@
 <suite name="Suite">
   <test thread-count="5" name="Test1">
     <classes>
-      <class name="AmazonTest001.AmazonTC001"/>
+      <class name="AmazonResultCapture.AmazonTestCase1"/>
     </classes>
   </test> <!-- Test -->
   
   <test thread-count="5" name="Test2">
     <classes>
+      <class name="AmazonTest001.AmazonTC001"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test3">
+    <classes>
       <class name="AmazonTest002.AmazonTC002"/>
     </classes>
   </test> <!-- Test -->
+  
 </suite> <!-- Suite -->

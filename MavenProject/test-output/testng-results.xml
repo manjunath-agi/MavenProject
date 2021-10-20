@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-12T13:36:11 IST" name="Default suite" finished-at="2021-10-12T13:36:24 IST" duration-ms="12411">
+  <suite started-at="2021-10-14T14:28:17 IST" name="Default suite" finished-at="2021-10-14T14:28:27 IST" duration-ms="9858">
     <groups>
     </groups>
-    <test started-at="2021-10-12T13:36:11 IST" name="Default test" finished-at="2021-10-12T13:36:24 IST" duration-ms="12411">
-      <class name="AmazonTest001.AmazonTC001">
-        <test-method signature="TestCase001()[pri:0, instance:AmazonTest001.AmazonTC001@378542de]" started-at="2021-10-12T13:36:11 IST" name="TestCase001" finished-at="2021-10-12T13:36:24 IST" duration-ms="12330" status="PASS">
+    <test started-at="2021-10-14T14:28:17 IST" name="Default test" finished-at="2021-10-14T14:28:27 IST" duration-ms="9858">
+      <class name="AmazonTest003.JSONread">
+        <test-method signature="jSonRead()[pri:0, instance:AmazonTest003.JSONread@4e7912d8]" started-at="2021-10-14T14:28:17 IST" name="jSonRead" finished-at="2021-10-14T14:28:27 IST" duration-ms="9784" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCase001 -->
-      </class> <!-- AmazonTest001.AmazonTC001 -->
+        </test-method> <!-- jSonRead -->
+      </class> <!-- AmazonTest003.JSONread -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
